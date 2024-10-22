@@ -1,3 +1,5 @@
 #!/bin/bash
-service apache2 start
+sudo service httpd start
+sudo chkconfig httpd on
+
 
